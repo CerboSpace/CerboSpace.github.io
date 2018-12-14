@@ -96,15 +96,15 @@ members:
   #       url: http://twitter.com/handle
 
 # Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
+# clients:
+#   - name: dribbble
+#     img: client01.png
+#   - name: Code is Poetry
+#     img: client02.png
+#   - name: Vimeo
+#     img: client03.png
+#   - name: VimeoPro
+#     img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "You have the data, we have the answers. We at median specialize in providing you with customized solutions for your machine learning problems. We synthesize our academic, research and practical experience to imbue your systems with intelligence."
