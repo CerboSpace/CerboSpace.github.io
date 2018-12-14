@@ -4,11 +4,7 @@
 title: Cerbo Space
 description: "You have the data, we have the answers."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-<<<<<<< HEAD
 baseurl: "/" #important: start with /
-=======
-baseurl: "" #important: start with /
->>>>>>> test
 url: "https://cerbospace.com"
 
 # Build settings
@@ -111,11 +107,7 @@ members:
 #     img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-<<<<<<< HEAD
-about: "You have the data, we have the answers. We at median specialize in providing you with customized solutions for your machine learning problems. We synthesize our academic, research and practical experience to imbue your systems with intelligence."
-=======
 about: "We at Cerbo Space specialize in providing you with customized solutions for your Machine Learning problems. We synthesize our academic, research and practical experience to imbue your systems with intelligence."
->>>>>>> test
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
