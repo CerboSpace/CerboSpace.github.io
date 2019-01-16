@@ -1,11 +1,12 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: Cerbo Space
+title: CERBO SPACE
 description: "You have the data, we have the answers."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "/" #important: start with /
+baseurl: "" #important: start with /
 url: "https://cerbospace.com"
+blogurl: "/blog"
 
 # Build settings
 markdown: kramdown
@@ -60,7 +61,7 @@ tel: "+91 "
 members:
   - name: Prabhanjan Mutalik
     position: CEO
-    text: Can't Eat Out
+    text: "Can't Eat Out <br><br> Time series prediction, Deep learning models, Computational Neuroscience, Bio-inspired computing"
     img: team01.jpg
     social:
       - title: envelope #use for email address
@@ -78,7 +79,7 @@ members:
         url: http://twitter.com/handle
   - name: Anthony Wing
     position: CAI
-    text: Can't Afford It
+    text: "Can't Afford It <br><br> Speech Technology, Computer Vision"
     img: team03.jpg
     social:
       - title: envelope #use for email address
@@ -94,15 +95,15 @@ members:
   #       url: http://twitter.com/handle
 
 # Clients information. Shown on Home and About pages.
-# clients:
-#   - name: dribbble
-#     img: client01.png
-#   - name: Code is Poetry
-#     img: client02.png
-#   - name: Vimeo
-#     img: client03.png
-#   - name: VimeoPro
-#     img: client04.png
+clients:
+  - name: dribbble
+    img: client01.png
+  - name: Code is Poetry
+    img: client02.png
+  - name: Vimeo
+    img: client03.png
+  - name: VimeoPro
+    img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "We at Cerbo Space specialize in providing you with customized solutions for your Machine Learning problems. We synthesize our academic, research and practical experience to imbue your systems with intelligence."
@@ -110,5 +111,5 @@ about: "We at Cerbo Space specialize in providing you with customized solutions 
 # Testimonial content. Shown on Home and About page.
 testimonial:
     message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-    author: Marcel Newman
-    position: WEB DESIGNER - BLACKTIE.CO
+    author: Spidey
+    position: FRIENDLY NEIGHBOURHOOD WATCH

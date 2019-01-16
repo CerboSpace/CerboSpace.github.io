@@ -1,9 +1,10 @@
-<div class="container mtb">
-    <div class="row centered">
-        <h3 class="mb">MEET OUR TEAM</h3>
+<div id="contactwrap" class="container mtb">
+    <div id="contactwrapback"></div>
+    <div class="row centered mb">
+        <div class="col-lg-12"><h3 class="mb">MEET OUR TEAM</h3></div>
         
         {% for member in site.members %}
-        <div class="col-lg-3 col-md-3 col-sm-3">
+        <div class="col-lg-4 col-md-4 col-sm-4">
             <div class="he-wrap tpl6">
             <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
                 <div class="he-view">
@@ -17,8 +18,8 @@
             </div><!-- he wrap -->
             <h4>{{ member.name }}</h4>
             <h5 class="ctitle">{{ member.position }}</h5>
+            <div class="hline-thin"></div>
             <p>{{ member.text }}</p>
-            <div class="hline"></div>
         </div><! --/col-lg-3 -->	 	
         {% endfor %}
         

@@ -198,7 +198,7 @@ a:focus {
 }
 
 .mb {
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 }
 
 .mt {
@@ -209,9 +209,26 @@ a:focus {
 	border-bottom: 2px solid {{ site.colors.secondary }};
 }
 
+.hline-thin {
+	border-bottom: 1px solid {{ site.colors.secondary }};
+	width: 50%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
 .hline-w {
 	border-bottom: 2px solid #ffffff;
 	margin-bottom: 25px;
+}
+
+.div-bg{
+	background: url(../img/header_background_opacity.png) no-repeat center top;
+	background-size: cover;
+	min-height: 600px;
+}
+.div-al-bot{
+	position: absolute;
+	bottom: 0px;
 }
 /*	################################################################
 	SITE WRAPS
@@ -422,7 +439,7 @@ a:focus {
 }
 
 .ctitle {
-	color: {{ site.colors.primary }};
+	color: {{ site.colors.secondary }};
 	font-weight: 700;
 	margin-bottom: 15px;
 }
@@ -442,7 +459,7 @@ csmall {
 }
 
 /* Contact Page */
-#contactwrap {
+/* #contactwrap {
 	background: url(../img/contact.jpg) no-repeat center top;
 	margin-top: -60px;
 	padding-top:0px;
@@ -450,6 +467,39 @@ csmall {
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 400px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+*/
+
+#contactwrapback {
+    background-color: {{ site.colors.primary }};
+    background-color:rgba({{ site.colors.primary_rgb }},.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#contactwrap {
+	background: url(../img/contact.jpg) no-repeat center top;
+    position: relative;
+    margin-top: 0px;
+	padding-top:60px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 450px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
