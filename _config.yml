@@ -4,7 +4,7 @@
 title: CERBO SPACE
 description: "You have the data, we have the answers."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "/" #important: start with /
+baseurl: "" #important: start with /
 url: "https://cerbospace.com"
 blogurl: "/blog"
 
