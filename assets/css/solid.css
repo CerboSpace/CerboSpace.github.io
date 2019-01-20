@@ -149,6 +149,12 @@ a:focus {
   border-color: {{ site.colors.secondary }};
   margin: 4px;
 }
+.btn-footer-theme {
+  color: #fff;
+  background-color: {{ site.colors.primary }};
+  border-color: {{ site.colors.primary }};
+  margin: 4px;
+}
 .btn-theme:hover,
 .btn-theme:focus,
 .btn-theme:active,

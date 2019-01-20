@@ -60,8 +60,8 @@ tel: "+91 "
 # Members information. Shown on About page.
 members:
   - name: Prabhanjan Mutalik
-    position: CEO
-    text: "Can't Eat Out <br><br> Time series prediction, Deep learning models, Computational Neuroscience, Bio-inspired computing"
+    position: 
+    text: "Time series prediction, Deep learning models, Computational Neuroscience, Bio-inspired computing"
     img: team01.jpg
     social:
       - title: envelope #use for email address
@@ -69,8 +69,8 @@ members:
       - title: twitter
         url: http://twitter.com/handle
   - name: Akshay Sinha
-    position: WTEO
-    text: Wants To Eat Out
+    position: 
+    text: 
     img: team02.jpg
     social:
       - title: envelope #use for email address
@@ -78,9 +78,9 @@ members:
       - title: twitter
         url: http://twitter.com/handle
   - name: Anthony Wing
-    position: CAI
-    text: "Can't Afford It <br><br> Speech Technology, Computer Vision"
-    img: team03.jpg
+    position: 
+    text: "Speech Technology, Computer Vision, Healthcare"
+    img: profile_anthony.jpg
     social:
       - title: envelope #use for email address
         url: mailto:mail@atwing.net
