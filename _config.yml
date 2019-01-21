@@ -61,7 +61,7 @@ tel: "+91 "
 members:
   - name: Prabhanjan Mutalik
     position: 
-    text: "Time series prediction, Deep learning models, Computational Neuroscience, Bio-inspired computing"
+    text: "Time Series Prediction, Deep Learning Models, Computational Neuroscience, Bio-inspired Computing"
     img: team01.jpg
     social:
       - title: envelope #use for email address
@@ -106,7 +106,9 @@ clients:
     img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "We at Cerbo Space specialize in providing you with customized solutions for your Machine Learning problems. We synthesize our academic, research and practical experience to imbue your systems with intelligence."
+about: "Imbue your systems with intelligence.<br> As Machine Learning scientists, we offer customized solutions incorporating ideas and concepts from cutting edge scientific literature."
+#  "We are a group of Machine Learning scientists specializing in imbuing your systems with intelligence. We are passionate about solving complex problems and our solutions are customized incorporating ideas and concepts from the cutting edge scientific literature."
+# "We at Cerbo Space specialize in providing you with customized solutions for your Machine Learning problems. We synthesize our academic, research and practical experience to imbue your systems with intelligence."
 
 # Testimonial content. Shown on Home and About page.
 testimonial:

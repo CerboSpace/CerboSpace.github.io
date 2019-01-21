@@ -30,6 +30,7 @@ body {
 	color: {{ site.colors.secondary }};
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
+	font-size: 17px;
 	}
 
 h1, h2, h3, h4, h5, h6 {
@@ -42,7 +43,6 @@ p {
 	margin-bottom: 12px; 
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	font-size: 14px; 
 	line-height: 24px;
 	color: {{ site.colors.secondary }}; 
 	margin-top: 10px; 
@@ -95,6 +95,10 @@ a:focus {
 	text-align: center
 }
 
+.title {
+	font-size: 50px;
+}
+
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
@@ -116,7 +120,7 @@ a:focus {
 .navbar-default .navbar-nav > li > a {
 	color: white;
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 17px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -199,12 +203,12 @@ a:focus {
 }
 
 .mtb {
-	margin-top: 80px;
-	margin-bottom: 80px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 .mb {
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 }
 
 .mt {
@@ -236,6 +240,13 @@ a:focus {
 	position: absolute;
 	bottom: 0px;
 }
+.div-al-mid{
+	position: absolute;
+	bottom: 300px;
+}
+.div-header{
+	min-height:100vh;
+}
 /*	################################################################
 	SITE WRAPS
 ################################################################# */
@@ -246,6 +257,8 @@ a:focus {
 	padding-top: 100px;
 	padding-bottom: 50px;
 	text-align: center;
+	positon: relative;
+	height: 100vh;
 }
 
 #headerwrap h3, h5 {
@@ -256,10 +269,27 @@ a:focus {
 #headerwrap h1 {
 	color: white;
 	margin-bottom: 25px;
+	font-size: 50px;
+}
+
+@media (min-width: 768px) {
+	#headerwrap h1 {
+	color: white;
+	margin-bottom: 25px;
+	font-size: 70px;
+}
 }
 
 #headerwrap .img-responsive {
 	margin: 0 auto;
+}
+
+#headerwrap .center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100vw;
 }
 
 /* Services Wrap */
@@ -272,6 +302,18 @@ a:focus {
 	color: {{ site.colors.primary }};
 	font-size: 60px;
 	padding: 15px;
+}
+
+#service .colortitle {
+	color: {{ site.colors.primary }};
+}
+
+#service h3{
+	font-weight: 500;
+}
+
+#service li{
+	font-size: 17px;
 }
 
 /* Portfolio Wrap */
@@ -450,7 +492,7 @@ a:focus {
 	margin-bottom: 15px;
 }
 
-csmall {
+.csmall {
 	font-size: 12px;
 	color: #b3b3b3;
 }
@@ -464,8 +506,8 @@ csmall {
 	background: {{ site.colors.primary }};
 }
 
-/* Contact Page */
-/* #contactwrap {
+/* Contact Section */
+ #contactwrap {
 	background: url(../img/contact.jpg) no-repeat center top;
 	margin-top: -60px;
 	padding-top:0px;
@@ -485,9 +527,12 @@ csmall {
     -o-background-size: cover;
     background-size: cover;
 }
-*/
 
-#contactwrapback {
+#contact .colortitle {
+	color: {{ site.colors.primary }};
+}
+
+#teamwrapback {
     background-color: {{ site.colors.primary }};
     background-color:rgba({{ site.colors.primary_rgb }},.8);
     position: absolute;
@@ -497,8 +542,8 @@ csmall {
     height: 100%;
 }
 
-#contactwrap {
-	background: url(../img/contact.jpg) no-repeat center top;
+#teamwrap {
+	background: url(../img/team.jpg) no-repeat center top;
     position: relative;
     margin-top: 0px;
 	padding-top:60px;
@@ -517,6 +562,19 @@ csmall {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+#teamwrap h1 {
+	padding-left: 15px;
+	text-align: left;
+	color: #ffffff;
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+#teamwrap .no-pad {
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 /* Blog Page */
