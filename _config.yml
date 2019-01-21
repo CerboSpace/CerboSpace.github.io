@@ -4,7 +4,7 @@
 title: CERBO SPACE
 description: "You have the data, we have the answers."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "/" #important: start with / if online build, leave empty for local build
+baseurl: "" #important: start with / if online build, leave empty for local build
 url: "https://cerbospace.com"
 blogurl: "/blog"
 
@@ -83,7 +83,7 @@ members:
     img: profile_anthony.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:mail@atwing.net
+        url: mailto:name@domain.com
   # - name: Martin Blunt
   #   position: Marketing
   #   text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
