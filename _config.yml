@@ -66,8 +66,6 @@ members:
     social:
       - title: envelope #use for email address
         url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
   - name: Akshay Sinha
     position: 
     text: 
@@ -75,8 +73,6 @@ members:
     social:
       - title: envelope #use for email address
         url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
   - name: Anthony Wing
     position: 
     text: "Speech Technology, Computer Vision, Healthcare"
