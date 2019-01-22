@@ -45,3 +45,12 @@ BLOG:
 
 CONTACT:
 Lets give out our KTH id until we buy the domain
+
+###v0.3
+
+WORKFLOW:
+1. We analyse your problem and create a roadmap for execution.
+2. We collect the data from you and, if possible, collect the data for you.
+3. We conduct an extensive literature survey and develop a diverse array of models to test your data on.
+4. Once we have hit upon the right model, we optimise the code and the computing performance
+5. We subsequently integrate the model into your workflow and perform routine maintenance to ensure the models never stop learning.
