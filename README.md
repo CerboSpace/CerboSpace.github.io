@@ -54,3 +54,10 @@ WORKFLOW:
 3. We conduct an extensive literature survey and develop a diverse array of models to test your data on.
 4. Once we have hit upon the right model, we optimise the code and the computing performance
 5. We subsequently integrate the model into your workflow and perform routine maintenance to ensure the models never stop learning.
+
+###v0.4
+
+PUBLICATIONS:
+George, Koshy, and *Prabhanjan Mutalik*. "Online time series prediction with meta-cognition." Neural Networks (IJCNN), 2016 International Joint Conference on. IEEE, 2016.
+George, Koshy, Sachin Prabhu, and *Prabhanjan Mutalik*. "An online multiple-model approach to univariate time-series prediction." Proceedings of ELM-2014 Volume 1. Springer, Cham, 2015. 215-224.
+George, Koshy, and *Prabhanjan Mutalik*. "A multiple model approach to time-series prediction using an online sequential learning algorithm." IEEE Transactions on Systems, Man, and Cybernetics: Systems (2017).
