@@ -62,24 +62,24 @@ members:
   - name: Prabhanjan Mutalik
     position: 
     text: "Time Series Prediction, Deep Learning Models, Computational Neuroscience, Bio-inspired Computing"
-    img: team01.jpg
+    img: profile_pbj.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
+      - title: user #use for email address
+        url: /team/prabhanjan
   - name: Akshay Sinha
     position: 
-    text: 
-    img: team02.jpg
+    text: "Computer Vision, Speech Recognition, Natural Language Processing"
+    img: profile_akshay.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
+      - title: user #use for email address
+        url: /team/akshay
   - name: Anthony Wing
     position: 
     text: "Speech Technology, Computer Vision, Healthcare"
     img: profile_anthony.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
+      - title: user #use for email address
+        url: /team/anthony
   # - name: Martin Blunt
   #   position: Marketing
   #   text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.

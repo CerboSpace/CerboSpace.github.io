@@ -61,3 +61,15 @@ PUBLICATIONS:
 George, Koshy, and *Prabhanjan Mutalik*. "Online time series prediction with meta-cognition." Neural Networks (IJCNN), 2016 International Joint Conference on. IEEE, 2016.
 George, Koshy, Sachin Prabhu, and *Prabhanjan Mutalik*. "An online multiple-model approach to univariate time-series prediction." Proceedings of ELM-2014 Volume 1. Springer, Cham, 2015. 215-224.
 George, Koshy, and *Prabhanjan Mutalik*. "A multiple model approach to time-series prediction using an online sequential learning algorithm." IEEE Transactions on Systems, Man, and Cybernetics: Systems (2017).
+
+###v0.5
+BIO:
+####Akshay Sinha
+Akshay likes writing short stories and gaming. He is interested in deep learning and fields such as computer vision, speech recognition and NLP. He has a bachelor's degree in computer engineering.
+####Prabhanjan Mutalik
+Prabhanjan  is fascinated by biological systems and obsessed with learning algorithms.
+He has worked on time series prediction and built deep learning models with a penchant for scientific research.
+Prabhanjan has a Masters in Machine Learning from KTH Royal Institute of Technology, Stockholm.
+####Anthony Wing
+Anthony loves to code! His primary areas of interest being speech technology and computer vision, with a soft spot for healthcare.
+Anthony Wing has a Masters in Machine Learning from KTH Royal Institute of Technology, Stockholm plays Ukulele in his spare time.

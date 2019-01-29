@@ -1,5 +1,5 @@
 <div id="teamwrap">
-    <div class="container mb">
+    <div class="container">
         <div class="row">
             <div id="teamwrapback"></div>
             <div class="col-lg-10 col-lg-offset-1 no-pad mb"><h1>Meet our team</h1>
@@ -8,14 +8,14 @@
                 <div class="col-lg-4 col-md-4 col-sm-4">
                     <div class="he-wrap tpl6">
                     <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
-                        <!-- <div class="he-view">
+                        <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
+                                <h3 class="a1" data-animate="fadeInDown">Bio:</h3>
                                 {% for entry in member.social %}
                                     <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
                                 {% endfor %}
                             </div>
-                        </div> -->
+                        </div>
                     </div><!-- he wrap -->
                     <h3>{{ member.name }}</h3>
                     <h5 class="ctitle">{{ member.position }}</h5>
