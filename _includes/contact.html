@@ -1,36 +1,21 @@
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='/thank-you/';}"></iframe>
 <div id="contactwrap">
   <div class="container">
       <div class="row">
           <div id="contact" class="col-lg-8 col-lg-offset-1">
-              <h1 class="title"><font class="colortitle">Contact us</font></h1>
-              <h3>For a free consultation session or just say hi.</h3>
-              <br>
-                  <form action="https://getform.io/f/2b84c893-2fe4-4fd3-83c7-518a3364cd8a" method="POST">
-                    <div class="form-group">
-                      <label for="InputName">Name *</label>
-                      <input type="text" name="Name" class="form-control" id="InputName" required>
-                    </div>
-                    <div class="form-group">
-                      <label for="InputEmail">Email *</label>
-                      <input type="email" name="Email" class="form-control" id="InputEmail" required>
-                    </div>
-                    <div class="form-group">
-                      <label for="InputSubject">Subject</label>
-                      <input type="text" name="Subject" class="form-control" id="InputSubject1">
-                    </div>
-                    <div class="form-group">
-                      <label for="InputMessage">Message *</label>
-                      <textarea class="form-control" name="Message" id="InputMessage" rows="3" required></textarea>
-                    </div>
-                    <!-- <div class="form-group">
-                      <input type="hidden" name="Copy" value="no">
-                      <input type="checkbox" name="Copy" value="yes" checked>
-                      <label for="InputCopy">&nbsp;Send copy to own email address</label>
-                    </div> -->
-                    <button type="submit" class="btn btn-theme">Submit</button>
-                    <input type="hidden" name="_next" value="/thank-you.html"/>
-                  </form>
-          </div><! --/col-lg-8 -->
+            <h1 class="title"><font class="colortitle">Contact us</font></h1>
+            <h3>For a free consultation session or just say hi.</h3>
+            <label for="checkcontact" class="contactbutton fa fa-envelope"></label><input id="checkcontact" type="checkbox">
+            
+            <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfxDIoXrkEWkCO-tR91wAsXAga4HvnMMpK1h9tszciM87LNuA/formResponse" method="post" class="contactform" target="hidden_iframe" onsubmit="submitted=true;">
+              <p class="input_wrapper"><input type="text" name="entry.2005620554" value=""  id ="contact_nom" required><label for="contact_nom">Name *</label></p>
+              <p class="input_wrapper"><input type="email" name="entry.939626576" value=""  id ="contact_email" required><label for="contact_email">Email *</label></p>
+              <p class="textarea_wrapper"><textarea name="entry.839337160" id="contact_message" required></textarea></p>
+              <p class="submit_wrapper"><input type="submit" value="Submit"></p>     
+            </form>
+          </div>
       </div><! --/row -->
   </div><! --/container -->
 </div>
+
